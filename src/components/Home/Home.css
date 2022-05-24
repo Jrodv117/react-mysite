@@ -1,0 +1,84 @@
+#top-container {
+	padding-top: 90px;
+}
+
+@media screen and (max-width: 1024px) {
+	#top-container {
+		height: 68vh;
+	}
+	.top-cloud {
+		top: 8rem;
+		right: 3rem;
+	}
+	.bottom-cloud {
+		top: 25rem;
+		left: 5rem;
+	}
+	.mountain {
+		height: 35vh;
+	}
+}
+
+/* ===================== (Small Devices) ===================== */
+@media screen and (max-width: 600px) {
+	.top-container {
+		height: 100vh;
+	}
+	.mountain {
+		height: 30vh;
+	}
+	#bottom-container {
+		margin-top: 6.5rem;
+	}
+	.top-cloud {
+		top: 7rem;
+		right: 4.5rem;
+		height: 2.2rem;
+	}
+	.bottom-cloud {
+		height: 2.2rem;
+		top: 16rem;
+		left: 4.4rem;
+	}
+	.skills-img {
+		height: 33vh;
+	}
+	::-webkit-scrollbar {
+		display: none;
+	}
+	.intro-h1 {
+		font-size: 3rem;
+	}
+	.intro-h2 {
+		font-size: 1.3rem;
+	}
+	.julian-avi {
+		height: 25vh;
+	}
+	.skill-row {
+		width: 76.5%;
+	}
+	.profile {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.contact-me {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.intro-p {
+		width: 86%;
+	}
+	.contact-p {
+		width: 65%;
+		margin: 0 auto;
+		margin-bottom: 6.5rem;
+	}
+}
+
+/* 
+#top-container {
+	height 68vh;
+#top-container {
+	height 100vh;
+*/

@@ -1,0 +1,13 @@
+.julian-avi {
+	padding-top: 9rem;
+}
+
+.intro-p {
+	padding-bottom: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+	.intro-p {
+		padding-bottom: 50px;
+	}
+}
