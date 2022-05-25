@@ -1,7 +1,36 @@
 .contact-me {
-	padding-top: 100px;
+	padding-top: 30px;
 }
 
+/* form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	gap: 1.2rem;
+	width: 40%;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 1.5rem;
+	border-radius: 0.7rem;
+	background: rgba(0, 0, 0, 0.113);
+	border: 3px solid #66bfbf;
+	color: black;
+	font-weight: bold;
+}
+.btn-contact {
+	width: 30%;
+	padding: 10px;
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 45px;
+} */
+
+textarea {
+	font-size: larger;
+}
 @media screen and (max-width: 600px) {
 	.contact-me {
 		padding-top: 20px;

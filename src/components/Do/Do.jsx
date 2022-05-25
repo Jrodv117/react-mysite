@@ -12,7 +12,7 @@ const Do = () => {
 					<h3>Develop what you need</h3>
 					<p>
 						I'm a Software Engineer, so I know how to leverage the latest
-						technologies available to develop what is needed.
+						technologies available to develop full stack applications.
 					</p>
 				</div>
 				<div class="skill-row">
@@ -20,7 +20,8 @@ const Do = () => {
 					<h3>Design what you need.</h3>
 					<p className="des-p">
 						I like to keep it simple. My goal is to focus on the appropriate
-						content in order to convey the message that needs to be sent.
+						content in order to convey the right message and design user
+						friendly applications.
 					</p>
 				</div>
 			</div>
