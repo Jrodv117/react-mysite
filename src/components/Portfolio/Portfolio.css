@@ -1,0 +1,32 @@
+.pokedex-png {
+	float: left;
+}
+
+.project-row {
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+
+.project-h2 {
+	margin: 0;
+	text-align: center;
+	font-size: 80px;
+}
+.project-h3 {
+	margin: 0;
+	padding: 0;
+}
+.project-p {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.portfolio-btn {
+	margin: 60px;
+}
+
+.portfolio-link {
+	margin: 10px 20px;
+}

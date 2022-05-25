@@ -212,6 +212,10 @@ section {
 	box-sizing: border-box;
 }
 
+.contact {
+	height: 90vh;
+}
+
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
 	.container {
@@ -228,10 +232,3 @@ section {
 		display: none;
 	}
 }
-
-/* 
-.topcontainer {
-	height 68vh;
-.topcontainer {
-	height 100vh;
-*/

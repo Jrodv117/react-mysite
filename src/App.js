@@ -7,8 +7,6 @@ import Do from './components/Do/Do';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Btn from './components/Btn/Btn';
 
 const App = () => {
 	return (
