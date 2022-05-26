@@ -33,3 +33,41 @@ nav a.active {
 ul {
 	padding: 0;
 }
+
+@media screen and (max-width: 600px) {
+	ul {
+		background: rgba(0, 0, 0, 0.3);
+		padding: 0.1rem 0.5rem;
+		z-index: 2;
+		position: fixed;
+		right: 2.3rem;
+		bottom: -3.1rem;
+		display: flex;
+		gap: 0.8rem;
+		border-radius: 3rem;
+		backdrop-filter: blur(15px);
+		margin-bottom: 50px;
+	}
+	nav {
+		padding: 0;
+	}
+	nav a {
+		background: transparent;
+		padding: 0.9rem;
+		border-radius: 50%;
+		display: flex;
+		font-size: 1.1rem;
+	}
+
+	nav a:hover {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	nav a.active {
+		background: rgba(0, 0, 0, 0.6);
+	}
+
+	ul {
+		padding: 0;
+	}
+}

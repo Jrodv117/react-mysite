@@ -21,7 +21,7 @@ body {
 
 h1 {
 	color: #66bfbf;
-	font-family: 'Sacramento', cursive;
+	font-family: 'Marriweather', serif;
 	font-size: 6.25rem;
 	margin: 50px auto 0 auto;
 }
@@ -45,7 +45,13 @@ a {
 }
 
 #top-container {
-	background-color: #e8f9fd;
+	/* background: url(/src/images/backs.png);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	/* position: relative;
+	padding-top: 100px;
+	height: 100vh; */
+
 	position: relative;
 	padding-top: 100px;
 }
@@ -74,7 +80,10 @@ a {
 
 .mountain {
 	position: relative;
-	height: 23rem;
+	height: 10%;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 hr {
@@ -228,5 +237,8 @@ section {
 	}
 	hr {
 		display: none;
+	}
+	.skills-div {
+		margin: 0;
 	}
 }

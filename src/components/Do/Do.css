@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 600px) {
 	.what-i-do {
-		padding-top: 40px;
+		padding-top: 5px;
 		padding-bottom: 0px;
 	}
 	.skill-row {
@@ -13,5 +13,12 @@
 	}
 	.des-p {
 		margin-bottom: 0px;
+	}
+	.do-h2 {
+		margin-bottom: 0px;
+		padding-bottom: 0;
+	}
+	.des-h3 {
+		margin-top: 0;
 	}
 }
